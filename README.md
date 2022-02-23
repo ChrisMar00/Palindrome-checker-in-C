@@ -18,7 +18,7 @@ Windows:
 Linux:
 palindrome 'word'
 
-If more no or more than one argument is passed, an error is raised:
+If no or more than one argument is passed, an error is raised:
 
 Usage:
 ./palindrome 'string'
