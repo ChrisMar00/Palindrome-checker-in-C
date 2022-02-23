@@ -18,5 +18,10 @@ Windows:
 Linux:
 palindrome 'word'
 
+If more no or more than one argument is passed, an error is raised:
+
+Usage:
+./palindrome 'string'
+
 If the word is palindrome then it will output: "'word' is palindrome!", else: "'word' isn't palindrome!"
 
