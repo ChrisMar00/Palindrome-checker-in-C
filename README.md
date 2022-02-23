@@ -6,6 +6,7 @@ To use the script just compile it in a terminal and add the word you want to che
 
 Windows:
 gcc palindrome.c -o palindrome.exe
+
 Linux:
 gcc palindrome.c -o palindrome
 
@@ -13,6 +14,7 @@ Then execute it:
 
 Windows:
 ./palindrome 'word'
+
 Linux:
 palindrome 'word'
 
