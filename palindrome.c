@@ -1,3 +1,8 @@
+################################
+# Palindrome checker 1.0       #
+# Created by Christian Marotta #
+################################
+
 #include <stdio.h>
 #include <stdlib.h>
 
