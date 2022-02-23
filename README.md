@@ -1,4 +1,4 @@
-# PalindromeStringInC
+# Palindrome string in C
 
 This script helps you check if a string is a palindrome using C language.
 
