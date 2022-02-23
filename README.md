@@ -12,9 +12,9 @@ gcc palindrome.c -o palindrome
 Then execute it:
 
 Windows:
-./palindrome <word>
+./palindrome 'word'
 Linux:
-palindrome <word>
+palindrome 'word'
 
-If the word is palindrome then it will output: "<word> is palindrome!", else: "<word> isn't palindrome!"
+If the word is palindrome then it will output: "'word' is palindrome!", else: "'word' isn't palindrome!"
 
