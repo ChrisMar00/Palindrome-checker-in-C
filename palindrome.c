@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
     return 0;
 }
 
-//Called when the passed parameters are wrong
+//Called when the passed arguments are wrong
 void printInvalidFormatError(char *prog){
     fprintf(stderr, "Usage:\n./%s <string>", prog);
     exit(EXIT_FAILURE);
