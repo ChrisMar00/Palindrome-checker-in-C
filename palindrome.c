@@ -6,6 +6,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Function prototypes
+void printInvalidFormatError(char *prog);
+void checkUpperCase(char *s);
+int palindrome(char *s);
+
+int main(int argc, char *argv[]){
+    if(argc != 2) printInvalidFormatError(argv[0]);
+
+    if(palindrome(argv[1]) == 1) printf("%s is palindrome!\n", argv[1]);
+    else printf("%s isn't palindrome!\n", argv[1]);
+
+    return 0;
+}
+
 //Called when the passed parameters are wrong
 void printInvalidFormatError(char *prog){
     fprintf(stderr, "Usage:\n./%s <string>", prog);
@@ -37,13 +51,4 @@ int palindrome(char *s){
         if(*ps != *pf) return 0;//If *ps != *pf then one of the characters in the first half of the string is different to the corrisponding one on the other half of the string
     }
     return 1;
-}
-
-int main(int argc, char *argv[]){
-    if(argc != 2) printInvalidFormatError(argv[0]);
-
-    if(palindrome(argv[1]) == 1) printf("%s is palindrome!\n", argv[1]);
-    else printf("%s isn't palindrome!\n", argv[1]);
-
-    return 0;
 }
