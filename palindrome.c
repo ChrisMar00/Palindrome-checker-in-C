@@ -30,9 +30,9 @@ void printInvalidFormatError(char *prog){
 int stringLength(char *s){
     char *ps = s;
     while(*ps){//If the pointers points to something
-        ps++;//Increment ps
+        ps++;//Increments ps
     }
-    return ps - s;//Return the the distance between the final ps position and the starting position s
+    return ps - s;//Returns the the distance between the final ps position and the starting position s
 }
 
 //Checks if a character is upperCase, if so it changes it to lowerCase
