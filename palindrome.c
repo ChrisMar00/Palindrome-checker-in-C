@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Function prototypes
+//Functions prototypes
 void printInvalidFormatError(char *prog);
 void checkUpperCase(char *s);
 int palindrome(char *s);
